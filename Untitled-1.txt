@@ -4,6 +4,6 @@ Where are you? are you there?
 This is from it_support2 local repo
 This is from it_support2 local repo as well 2
 
-Good bye
+Good bye and hello
 in branch experiment1 (remote)
 in branch experiment1 (local)
