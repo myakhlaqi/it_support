@@ -2,7 +2,6 @@
 import os
 from PIL import Image
 
-
 def get_image_paths(mypath):
     return [ os.path.abspath(os.path.join(mypath, f)) 
     for f in os.listdir(mypath) if os.path.isfile(os.path.join(mypath, f)) and f.startswith("ic_")]
