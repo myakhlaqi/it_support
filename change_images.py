@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-import os
 from PIL import Image
+import os
 
 def get_image_paths(mypath):
     return [ os.path.abspath(os.path.join(mypath, f)) 
