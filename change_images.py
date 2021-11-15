@@ -6,10 +6,10 @@ from PIL import Image
 def get_image_paths(mypath):
     return [ os.path.abspath(os.path.join(mypath, f)) 
     for f in os.listdir(mypath) if os.path.isfile(os.path.join(mypath, f)) and f.startswith("ic_")]
-    
 
 #print(onlyfiles)
 #os.mkdir("./new_images")
+
 def convert_image(image_path_list, save_path):
     for image_path in image_path_list:
         pic = Image.open(image_path)
