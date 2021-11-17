@@ -4,7 +4,6 @@ import json
 import os
 import requests
 
-
 def extract_feedback(logfile):
     review_items = {}
     file = open(logfile, "r")
