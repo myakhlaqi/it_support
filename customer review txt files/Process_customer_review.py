@@ -16,9 +16,6 @@ def extract_feedback(logfile):
     review_items["feedback"] = feedback
     return review_items
 
-
-
-
 def get_txt_files(path):
     #    files=[os.path.join(path,item) for item in os.listdir(path) if os.path.isfile(item) and item.endswith(".txt")]
     files = [
