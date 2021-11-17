@@ -46,7 +46,6 @@ path = "./"
 print(get_txt_files(path))
 
 print(extract_feedback("./020.txt"))
-# print()
 
 gen_feedback_dic(path)
 print()
