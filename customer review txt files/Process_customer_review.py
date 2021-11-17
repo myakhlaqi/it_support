@@ -48,6 +48,4 @@ print(get_txt_files(path))
 print(extract_feedback("./020.txt"))
 
 gen_feedback_dic(path)
-print()
-
 #print(feedback_data)
