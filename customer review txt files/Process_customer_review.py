@@ -17,7 +17,6 @@ def extract_feedback(logfile):
     return review_items
 
 
-#print(gen_error_report("./test.txt"))
 
 
 def get_txt_files(path):
