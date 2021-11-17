@@ -34,7 +34,6 @@ def gen_feedback_dic(path):
         post_to_webservice("http://104.198.221.153/feedback/",x)
     return feedback_dic
 
-
 def post_to_webservice(url, feedbacks):
     #headers =  {"Content-Type":"application/json"}
     response = requests.post(url, json=feedbacks)
@@ -42,7 +41,6 @@ def post_to_webservice(url, feedbacks):
         print("Submitted!")
     print("inside post:", response.status_code)
     #print("json:", response.json)
-
 
 path = "./"
 print(get_txt_files(path))
