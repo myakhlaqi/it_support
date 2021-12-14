@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 Name=input("What's your name?")
 print("Hello", name)
-
 #some comment here
 print("Hello world!")
 
