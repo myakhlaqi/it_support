@@ -13,7 +13,9 @@ table_data=[
   ['bananas', 5, 1.99],
   ['cherries', 23, 5.80],
   ['grapes', 13, 2.48]]
-reports.generate("/tmp/report.pdf", "A Complete Inventory of My Fruit", "This is all my fruit.", table_data)
+reports.generate("/tmp/report.pdf", 
+                 "A Complete Inventory of My Fruit", "This is all my fruit.", 
+                 table_data)
 
 sender = "sender@example.com"
 receiver = "{}@example.com".format(os.environ.get('USER'))
