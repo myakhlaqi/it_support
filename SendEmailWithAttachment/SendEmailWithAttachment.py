@@ -28,7 +28,7 @@ def generatePDF():
     table_data = []
     for k, v in fruit.items():
         table_data.append([k, v])
-    print(table_data)
+    #print(table_data)
 
     from reportlab.lib import colors
 
