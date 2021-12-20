@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
 
-from email.message import EmailMessage
-from reportlab.platypus import Paragraph, Spacer, Table, Image
-from reportlab.lib.styles import getSampleStyleSheet
-from reportlab.platypus import SimpleDocTemplate
 import smtplib
 import os.path
 import getpass
 import mimetypes
+from email.message import EmailMessage
+from reportlab.platypus import Paragraph, Spacer, Table, Image
+from reportlab.lib.styles import getSampleStyleSheet
+from reportlab.platypus import SimpleDocTemplate
+
 
 def generatePDF():
     fruit = {
