@@ -6,7 +6,6 @@ import sys
 import reports
 import emails
 
-
 def load_data(filename):
   """Loads the contents of filename as a JSON file."""
   with open(filename) as json_file:
