@@ -69,7 +69,6 @@ def cars_dict_to_table(car_data):
     table_data.append([item["id"], format_car(item["car"]), item["price"], item["total_sales"]])
   return table_data
 
-
 def main(argv):
   """Process the JSON data and generate a full report out of it."""
   data = load_data("../car_sales.json")
