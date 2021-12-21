@@ -37,7 +37,6 @@ def process_data(data):
       max_total_sales["total_sales"]=item["total_sales"]
       
     
-    
     # TODO: also handle most popular car_year
   car_year={}
   popular_year=data[0]["car"]["car_year"]
