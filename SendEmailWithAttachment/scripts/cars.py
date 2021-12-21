@@ -18,7 +18,6 @@ def format_car(car):
   return "{} {} ({})".format(
       car["car_make"], car["car_model"], car["car_year"])
 
-
 def process_data(data):
   """Analyzes the data, looking for maximums.
 
