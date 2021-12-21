@@ -57,7 +57,6 @@ def process_data(data):
     "The most popular year was {} with {} sales.".format(
       popular_year,car_year[popular_year][1]
     )
-    
   ]
 
   return summary
