@@ -12,7 +12,6 @@ def load_data(filename):
     data = json.load(json_file)
   return data
 
-
 def format_car(car):
   """Given a car dictionary, returns a nicely formatted name."""
   return "{} {} ({})".format(
