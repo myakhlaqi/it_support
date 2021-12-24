@@ -10,6 +10,7 @@ from reportlab.platypus import Paragraph, Spacer, Table, Image
 from reportlab.lib.styles import getSampleStyleSheet
 from reportlab.platypus import SimpleDocTemplate
 
+
 def generatePDF():
     fruit = {
         "elderberries": 1,
