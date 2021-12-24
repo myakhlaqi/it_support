@@ -47,7 +47,6 @@ def generatePDF():
     report_chart.add(report_pie)
     report.build([report_title, report_table, report_chart])
 
-
 def sendEmail():
     message = EmailMessage()
     sender = "yahya.akhlaghi@gmail.com"
