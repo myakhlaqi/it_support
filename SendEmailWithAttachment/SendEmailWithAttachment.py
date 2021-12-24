@@ -77,6 +77,7 @@ def sendEmail():
             filename=os.path.basename(attachment_path),
         )
 
+        
     print(message)
 
     mail_server = smtplib.SMTP_SSL("smtp.gmail.com", 465)
