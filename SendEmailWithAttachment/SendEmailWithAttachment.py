@@ -48,7 +48,6 @@ def generatePDF():
     report.build([report_title, report_table, report_chart])
 
 
-
 def sendEmail():
     message = EmailMessage()
     sender = "yahya.akhlaghi@gmail.com"
