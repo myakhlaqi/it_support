@@ -25,7 +25,6 @@ def generate(sender, recipient, subject, body, attachment_path):
                           maintype=mime_type,
                           subtype=mime_subtype,
                           filename=attachment_filename)
-
   return message
 
 def send(message):
