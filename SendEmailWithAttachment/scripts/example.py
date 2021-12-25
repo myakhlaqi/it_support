@@ -24,4 +24,3 @@ body = "Hi\n\nI'm sending an attachment with all my fruit."
 
 message = emails.generate(sender, receiver, subject, body, "/tmp/report.pdf")
 emails.send(message)
-
