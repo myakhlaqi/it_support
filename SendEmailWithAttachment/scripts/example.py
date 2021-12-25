@@ -17,6 +17,9 @@ reports.generate("/tmp/report.pdf",
                  "A Complete Inventory of My Fruit", "This is all my fruit.", 
                  table_data)
 
+
+
+
 sender = "sender@example.com"
 receiver = "{}@example.com".format(os.environ.get('USER'))
 subject = "List of Fruits"
