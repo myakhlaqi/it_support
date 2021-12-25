@@ -19,7 +19,6 @@ reports.generate("/tmp/report.pdf",
 
 
 
-
 sender = "sender@example.com"
 receiver = "{}@example.com".format(os.environ.get('USER'))
 subject = "List of Fruits"
