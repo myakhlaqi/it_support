@@ -42,7 +42,6 @@ def gen_usr_report(logFile):
             else:
                 user_dic[key]=[0,1]
 
-
     file.close()
     return user_dic
 
