@@ -2,6 +2,7 @@
 
 import re
 import operator
+
 def gen_error_report(logfile):
     error_dic={}
     file=open(logfile, "r")
