@@ -1,7 +1,8 @@
-
 #!/usr/bin/env python3
+
 import re
 import operator
+
 def gen_error_report(logfile):
     error_dic={}
     file=open(logfile, "r")
@@ -41,7 +42,6 @@ def gen_usr_report(logFile):
                 user_dic[key][1]+=1
             else:
                 user_dic[key]=[0,1]
-
 
     file.close()
     return user_dic

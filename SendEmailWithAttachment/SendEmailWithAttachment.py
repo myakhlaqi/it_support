@@ -1,14 +1,15 @@
 #!/usr/bin/env python3
 
+import smtplib
+import os.path
+import mimetypes
+import getpass
+
 from email.message import EmailMessage
 from reportlab.platypus import Paragraph, Spacer, Table, Image
 from reportlab.lib.styles import getSampleStyleSheet
 from reportlab.platypus import SimpleDocTemplate
 
-import smtplib
-import os.path
-import getpass
-import mimetypes
 
 def generatePDF():
     fruit = {
@@ -27,7 +28,7 @@ def generatePDF():
     table_data = []
     for k, v in fruit.items():
         table_data.append([k, v])
-    print(table_data)
+    #print(table_data)
 
     from reportlab.lib import colors
 
@@ -46,8 +47,6 @@ def generatePDF():
     report_chart = Drawing()
     report_chart.add(report_pie)
     report.build([report_title, report_table, report_chart])
-
-
 
 def sendEmail():
     message = EmailMessage()
@@ -79,6 +78,7 @@ def sendEmail():
             filename=os.path.basename(attachment_path),
         )
 
+        
     print(message)
 
     mail_server = smtplib.SMTP_SSL("smtp.gmail.com", 465)
