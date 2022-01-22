@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "965a81e5-d3ee-4c62-8d92-e86bd4545f78": {
+      "ProjectGuid": "965a81e5-d3ee-4c62-8d92-e86bd4545f78",
+      "DisplayName": "SendEmailWithAttachment",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
