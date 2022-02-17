@@ -17,3 +17,4 @@ def convert_image(image_path_list, save_path):
   
 print(get_image_paths("./images"))
 convert_image(get_image_paths("./images"), "/opt/icons")
+ 
