@@ -8,7 +8,7 @@ def gen_error_report(logfile):
     file=open(logfile, "r")
 
     for line in file.readlines():
-#       print(line)
+       print(line)
         match=re.search(r"(ERROR )([\w ]*)", line)
         if match:
             key=match.group(2)
