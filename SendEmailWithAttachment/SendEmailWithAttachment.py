@@ -25,6 +25,7 @@ def generatePDF():
     report_title = Paragraph("A Complete Inventory of My Fruit", styles["h1"])
     
     table_data = []
+    
     for k, v in fruit.items():
         table_data.append([k, v])
     #print(table_data)
