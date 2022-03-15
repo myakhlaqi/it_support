@@ -79,7 +79,7 @@ def sendEmail():
         )
 
         
-    print(message)
+    #print(message)
 
     mail_server = smtplib.SMTP_SSL("smtp.gmail.com", 465)
     mail_server.set_debuglevel(1)
