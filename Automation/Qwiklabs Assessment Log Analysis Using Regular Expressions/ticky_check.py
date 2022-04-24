@@ -1,4 +1,5 @@
 #!/usr/bin/env python3 
+
 import re
 import operator
 def gen_error_report(logfile):
