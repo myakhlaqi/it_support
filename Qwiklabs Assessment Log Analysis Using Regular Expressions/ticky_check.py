@@ -49,7 +49,7 @@ def gen_usr_report(logFile):
 def print_error(dic):
     max_len_msg= max([len(item[0]) for item in dic])
     for key in dic:
-        print("{0:<{2:d}} {1:<10}".format(key[0],key[1],max_len_msg))
+        print("{0:<{2:d}} {1:<10}".format(key[0],key[ 1],max_len_msg))
 
 def print_user(dic):
     for item in dic:
