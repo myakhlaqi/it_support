@@ -5,7 +5,7 @@ import os
 import reports
 
 table_data=[
-  ['Name', 'Amount', 'Value'],
+  ['Name', 'Amount', 'Value'], 
   ['elderberries', 10, 0.45],
   ['figs', 5, 3],
   ['apples', 4, 2.75],
