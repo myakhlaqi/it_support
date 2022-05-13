@@ -14,7 +14,7 @@ table_data=[
   ['cherries', 23, 5.80],
   ['grapes', 13, 2.48]]
 reports.generate("/tmp/report.pdf", 
-                 "A Complete Inventory of My Fruit", "This is all my fruit.", 
+                 "A Complete Inventory of My Fruit", "This is all my fruit.",  
                  table_data)
 
 sender = "sender@example.com"
