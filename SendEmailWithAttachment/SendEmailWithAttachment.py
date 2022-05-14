@@ -5,7 +5,7 @@ import os.path
 import mimetypes
 import getpass
 
-from email.message import EmailMessage
+from email.message import EmailMessage 
 from reportlab.platypus import Paragraph, Spacer, Table, Image
 from reportlab.lib.styles import getSampleStyleSheet
 from reportlab.platypus import SimpleDocTemplate
