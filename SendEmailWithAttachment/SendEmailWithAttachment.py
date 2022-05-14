@@ -88,7 +88,7 @@ def sendEmail():
     mail_pass = getpass.getpass("Password? ")
     mail_server.login(sender, mail_pass)
     mail_server.send_message(message)
-    mail_server.quit()
+    mail_server.quit() 
 
     
 generatePDF()
