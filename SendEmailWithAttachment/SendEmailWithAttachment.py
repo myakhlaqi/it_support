@@ -34,7 +34,7 @@ def generatePDF():
     from reportlab.lib import colors
 
     table_style = [('GRID', (0,0), (-1,-1), 1, colors.black)]
-    report_table = Table(data=table_data, style=table_style, hAlign="LEFT")
+    report_table = Table(data=table_data, style=table_style, hAlign="LEFT") 
 
     from reportlab.graphics.shapes import Drawing
     from reportlab.graphics.charts.piecharts import Pie
