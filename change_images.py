@@ -15,6 +15,6 @@ def convert_image(image_path_list, save_path):
         pic.rotate(-90).resize((128,128)).convert("RGB").save(new_pic,"JPEG")
 
   
-print(get_image_paths("./images"))
+#print(get_image_paths("./images"))
 convert_image(get_image_paths("./images" ), "/opt/icons")
  
