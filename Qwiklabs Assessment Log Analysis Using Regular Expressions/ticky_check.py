@@ -15,7 +15,7 @@ def gen_error_report( logfile):
             if key in error_dic:
                 error_dic[key]+=1 
             else:
-                error_dic[key]=1
+                error_dic[key]=1 
     file.close()
     return error_dic
 
